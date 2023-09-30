@@ -1,0 +1,5 @@
+
+
+This command is use to generate the style.css file into the output directory.. and --watch mean it will continously runn.
+as dotnet --watch
+npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
